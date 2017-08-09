@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/profile',function(req,res) {
-    res.send('Supriya\'s profile will be served here');
+   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
 
 app.get('/articles',function(req,res) {
