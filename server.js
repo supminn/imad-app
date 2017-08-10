@@ -5,10 +5,9 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var content = {
+var profile = {
     title: 'Supriya\'s Profile',
     heading:'profile details',
-    
     content:`
          <p>
             NAME: Supriya Minnasandram<br/>
