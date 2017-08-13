@@ -1,4 +1,4 @@
 console.log('Loaded!');
 
-var element = document.getElementbyId('main text');
+var element = document.getElementById('main text');
 element.innerHTML='Supriya\'s webapp coming soon...';
