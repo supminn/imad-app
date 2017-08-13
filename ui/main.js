@@ -7,5 +7,5 @@ element.innerHTML='Supriya\'s webapp coming soon...';
 //move the img
 var img = document.getElementById('supi');
 img.onclick = function(){
-   img.style.marginleft = '100px';
+   img.style.marginLeft = '100px';
 };
